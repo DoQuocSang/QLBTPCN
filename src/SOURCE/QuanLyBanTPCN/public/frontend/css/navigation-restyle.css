@@ -1,0 +1,20 @@
+@media (min-width: 1024px) {
+
+    .desktop-navigation-menu {
+        display: block;
+        box-shadow: 2px 3px 5px #dddddd;
+        margin-bottom: 10px;
+    }
+
+}
+
+nav.desktop-navigation-menu.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(241, 241, 241);
+    width: 100%;
+    color: #fff;
+    z-index: 50;
+    box-shadow: 2px 3px 5px #959595;
+}

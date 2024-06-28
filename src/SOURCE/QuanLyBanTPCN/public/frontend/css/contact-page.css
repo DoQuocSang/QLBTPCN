@@ -1,0 +1,187 @@
+/* Style */
+main {
+    margin: 40px 100px;
+}
+
+.contact-info-bottom a {
+    display: inline;
+}
+
+label.label-form {
+    display: block;
+}
+
+span.form-control-contact {
+    display: block;
+}
+
+span.form-control-contact input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    padding: 5px;
+}
+
+span.form-control-contact textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    padding: 5px;
+}
+
+.feedback-btn {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: #0e2597;
+    color: #fff;
+}
+
+label.label-form {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-info,
+.feedback {
+    width: 50%;
+    padding: 30px;
+}
+
+form {
+    padding: 30px;
+}
+
+.feedback-form {
+    background-color: #3662f3;
+    border-radius: 4px;
+}
+
+.block-text {
+    color: #fff;
+}
+
+.feedback-title {
+    color: #ff5555;
+    margin-bottom: 10px;
+}
+
+.contact-info-top h2 {
+    color: #ff5555;
+    margin-bottom: 10px;
+}
+
+.contact-info-top {
+    margin-bottom: 30px;
+
+}
+
+.contact-info-top span {
+    color: #0F648D;
+    font-weight: 600;
+
+}
+
+.contact-info-top span i {
+    margin: 0 2px;
+
+}
+
+.contact-info-bottom {
+    background-color: #faffcb;
+    padding: 20px;
+}
+
+.contact-info-bottom span {
+    color: #0F648D;
+    font-weight: 600;
+}
+
+.contact-info img {
+    height: auto;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+.location h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #ff5555
+}
+
+.feedback-form {
+    position: relative;
+}
+
+.feedback-form img {
+    position: absolute;
+    width: 93px;
+    top: -62px;
+    right: 1px;
+}
+
+.contact-box {
+    position: fixed;
+    right: 0;
+    bottom: -100vh;
+    animation: popup 3s ease 3s forwards;
+    z-index: 50;
+}
+
+.contact-box.active {
+    display: none;
+}
+
+.contact-box button:hover {
+    background: #f10000;
+}
+
+.contact-box button a {
+    color: #fff;
+}
+
+.contact-box button {
+    padding: 8px 37px;
+    background-color: #ff5555;
+    border-radius: 4px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+i.fa-solid.fa-xmark {
+    /* text-align: right; */
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@keyframes popup {
+    0% {
+        bottom: -100vh;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}

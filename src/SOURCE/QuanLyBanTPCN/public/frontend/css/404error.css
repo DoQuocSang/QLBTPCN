@@ -1,0 +1,28 @@
+.error404 img {
+    width: 40%;
+    height: auto;
+}
+
+.error404 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.error-content {
+    font-size: 1.3rem;
+    color: #ff5555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.error-content i {
+    font-size: 1.4rem;
+    color: #ff9d0a;
+}
+
+h2.error-title {
+    font-size: 1.7rem;
+}

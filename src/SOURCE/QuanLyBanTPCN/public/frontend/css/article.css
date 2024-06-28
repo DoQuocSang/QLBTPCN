@@ -1,0 +1,88 @@
+/* style */
+main {
+    margin: 40px 100px;
+
+}
+
+/* container */
+.health-handbook.container,
+.news.container {
+    display: flex;
+}
+
+.main-article img {
+    padding-bottom: 30px;
+}
+
+.main-article h2,
+h3,
+p {
+    padding-bottom: 10px;
+}
+
+.article-title {
+    font-size: 35px;
+
+}
+
+.news-sidebar,
+.health-handbook-sidebar {
+    width: 30%;
+}
+
+.article-sidebar {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.article-sidebar img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.article-sidebar h2 {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #ff5555;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.main-article {
+    width: 70%;
+
+}
+
+.article-row {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.article-row-content {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 60px;
+    line-height: 20px;
+    display: -webkit-box;
+    font-size: .9rem;
+}
+
+.article-row-content a {
+    color: #767676;
+    transition: .3s ease;
+}
+
+.article-row-content a:hover {
+    color: #ff5555;
+}
+
+article.main-article img {
+    width: 100%;
+}
