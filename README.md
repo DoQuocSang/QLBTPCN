@@ -4,7 +4,7 @@
 - Nguyễn Thành Đạt
 - Trần Đình Minh Nhật
 
-Các chức năng chính:
+**Các chức năng chính:**
 
 **1. Phân hệ người quản trị:**
 - Đăng nhập trang quản trị
