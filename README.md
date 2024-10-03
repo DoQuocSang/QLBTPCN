@@ -1,10 +1,12 @@
 # Ứng dụng Web quản lý bán thực phẩm chức năng 
-### Thành viên::
+Xây dựng ứng dụng Web sử dụng Laravel và MySql
+
+## Thành viên:
 - Đỗ Quốc Sang
 - Nguyễn Thành Đạt
 - Trần Đình Minh Nhật
 
-### Các chức năng chính:
+## Các chức năng chính:
 
 **1. Phân hệ người quản trị:**
 - Đăng nhập trang quản trị
